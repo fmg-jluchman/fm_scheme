@@ -1,0 +1,89 @@
+*                                    fm.scheme
+
+* Fors Marsh inspired scheme extending on Stata's 
+* -s2mono- scheme
+
+*!  version 0.0.0 24oct2023
+
+sequence 1220
+
+#include s2mono
+label "fm"
+
+// defaults
+numcycle pcycle 5
+numticks_g horizontal_major 4
+numticks_g horizontal_minor 0
+numticks_g vertical_major 4
+numticks_g vertical_minor 0
+numticks_g major 4
+
+// default colors for major plot elements
+color black
+color background white
+color foreground white
+color plotregion white
+
+// defaults for text boxes
+color textbox white
+
+// by() defaults
+color bylabel_outline none
+
+// legend defaults
+color legend_line none
+
+// grids and ticks
+color major_grid black
+linewidth major_grid vthin
+
+// across plot defaults
+linewidth p medthick
+
+color p1 black
+color p2 black
+color p3 black
+color p4 black
+color p5 black
+// color p2 white
+// color p3 "240 240 240"
+// color p4 "255 162 25"
+// color p5 "233 197 211"
+// color p6 "198 137 69"
+// color p7 "143 215 198"
+// color p8 "71 160 233"
+
+symbol p1 circle_hollow
+symbol p2 triangle_hollow
+symbol p3 plus
+symbol p4 diamond_hollow
+symbol p5 square_hollow
+
+linepattern p1 solid
+linepattern p2 dash
+linepattern p3 dot
+linepattern p4 dash_dot
+linepattern p5 ".#.#_"
+
+intensity p1shade inten0
+intensity p2shade inten0
+intensity p3shade inten0
+intensity p4shade inten0
+intensity p5shade inten0
+
+// bar plots
+color p1bar "240 240 240"
+linepattern p1bar solid
+color p2bar "255 162 25"
+linepattern p2bar solid
+color p3bar black
+linepattern p3bar solid
+color p4bar "240 240 240"
+linepattern p4bar longdash
+color p5bar "255 162 25"
+linepattern p5bar longdash
+
+// histogram
+color histogram "240 240 240"
+
+
