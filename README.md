@@ -10,7 +10,7 @@ bar graphs in Stata.
 [`github install`](https://github.com/haghish/github) as
 
 ```
-github install fmg-jluchman/fm_sheme
+github install fmg-jluchman/fm_scheme
 ```
 
 Updates will be periodically available and should show up once finalized as updates in 
