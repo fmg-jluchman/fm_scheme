@@ -1,8 +1,8 @@
-*! fm_theme 0.0.0 Joseph N. Luchman mth/day/year
+*! fm_scheme 0.0.0 Joseph N. Luchman 8/23/2024
 
 version 18
 
-program define fm_theme, sclass
+program define fm_scheme, sclass
 
 	local cmdline : copy local 0
 	mata: _parse_colon("hascolon", "rhscmd")	
@@ -51,4 +51,5 @@ program define parse_fm, sclass
 end
 
 /*
-version 0.0.0
+ fm_scheme version 0.0.0 - August 23, 2024
+ ---

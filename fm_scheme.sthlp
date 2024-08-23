@@ -1,11 +1,11 @@
 {smcl}
-{* *! version 0.0.0 mth day, 202x J. N. Luchman}{...}
-{cmd:help fm_theme}
+{* *! version 0.0.0 August 23, 2024 J. N. Luchman}{...}
+{cmd:help fm_scheme}
 
 {title:Title}
 
 {pstd}
-{bf:fm_theme} {hline 2} The Fors Marsh graph scheme prefix command {p_end}
+{bf:fm_scheme} {hline 2} The Fors Marsh graph scheme prefix command {p_end}
 
 
 {title:Syntax}
@@ -42,9 +42,9 @@ in graphics depicting data analysis results.
 
 {pstd}
 Stata schemes do not accommodate both graphics and fonts and, to apply both, 
-the graph theme was implemented as a prefix command. Stata graphs and 
+the graph scheme was implemented as a prefix command. Stata graphs and 
 graphics features that currently do not have a specific implementation in
-Fors Marsh theme will be rendered with the implementation of 
+Fors Marsh scheme will be rendered with the implementation of 
 {help scheme s2mono}.
 
 {pstd}
@@ -152,7 +152,7 @@ Example 3: Bar Chart{p_end}
 {title:4. Key Considerations}
 
 {pstd}
-There are a number of strong suggestions for how to use the Fors Marsh theme
+There are a number of strong suggestions for how to use the Fors Marsh scheme
 when generating graphs. If you want to use any of these graph features or 
 change defaults, first consult the Creative Craft Center. 
 
