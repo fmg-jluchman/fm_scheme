@@ -136,17 +136,15 @@ areastyle bygraph_iplotregion none
 plotregionstyle bygraph transparent
 
 
-// !! started on below - not complete !!
-
 // across plot defaults
 linewidth p medthick
 linepattern p solid
 
 symbol p circle
-// symbolsize p
 
 intensity p inten100
 
+// by plot defaults
 color p1 black
 color p2 black
 color p3 black
@@ -163,11 +161,20 @@ color p13 none
 color p14 none
 color p15 none
 
-symbol p1 circle_hollow
-symbol p2 triangle_hollow
-symbol p3 plus
-symbol p4 diamond_hollow
-symbol p5 square_hollow
+symbol p1 circle
+color p1markfill "255 162 25"
+linewidth p1mark thin
+symbol p2 triangle
+color p2markfill black
+linewidth p2mark thin
+symbol p3 square
+color p3markfill "254 204 221"
+linewidth p3mark thin
+symbol p4 diamond
+color p4markfill "124 220 255"
+linewidth p4mark thin
+symbol p5 plus
+linewidth p5mark thin
 symbol p6 none
 symbol p7 none
 symbol p8 none
@@ -200,16 +207,41 @@ connectstyle p direct
 yesno pcmissings yes
 
 // bar plots
-color p1bar "240 240 240"
+color p1bar "255 162 25"
 linepattern p1bar solid
-color p2bar "255 162 25"
-linepattern p2bar solid
-color p3bar black
-linepattern p3bar solid
-color p4bar "240 240 240"
-linepattern p4bar longdash
-color p5bar "255 162 25"
-linepattern p5bar longdash
+linewidth p1bar medium
+color p2bar "254 204 221"
+linepattern p2bar dash
+linewidth p2bar medium
+color p3bar "107 225 202"
+linepattern p3bar dot
+linewidth p3bar thick
+color p4bar "124 220 255"
+linepattern p4bar "_######"
+linewidth p4bar medium
+color p5bar "131 83 255"
+linepattern p5bar shortdash_dot
+linewidth p5bar thick
+color p6bar none
+linewidth p6bar none
+color p7bar none
+linewidth p7bar none
+color p8bar none
+linewidth p8bar none
+color p9bar none
+linewidth p9bar none
+color p10bar none
+linewidth p10bar none
+color p11bar none
+linewidth p11bar none
+color p12bar none
+linewidth p12bar none
+color p13bar none
+linewidth p13bar none
+color p14bar none
+linewidth p14bar none
+color p15bar none
+linewidth p15bar none
 
 axisstyle bar_scale_vert vertical_default
 
@@ -217,6 +249,6 @@ relsize bar_gap 10
 relsize bar_groupgap 10
 
 // histogram
-color histogram "240 240 240"
+color histogram "255 162 25"
 
 

@@ -44,8 +44,8 @@ program define parse_fm, sclass
 	
 	if !strlen("`reset_scheme'") local reset_scheme "stcolor"
 	
-	graph set window fontface `reset_font'
-	if strlen("`gph_type'") graph set `gph_type' fontface `reset_font'
+	graph set window fontface "`reset_font'"
+	if strlen("`gph_type'") graph set `gph_type' fontface "`reset_font'"
 	set scheme `reset_scheme'
 
 end
