@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 0.0.0 August 23, 2024 J. N. Luchman}{...}
+{* *! version 0.0.1 September 9, 2024 J. N. Luchman}{...}
 {cmd:help fm_scheme}
 
 {title:Title}
@@ -11,7 +11,7 @@
 {title:Syntax}
 
 {p 8 16 2}
-{cmd:fm_theme} [, {it:options}]: {it:gphcmd}
+{cmd:fm_scheme} [, {it:options}]: {it:gphcmd}
 
 {synoptset 35 tabbed}{...}
 {synopthdr}
@@ -23,10 +23,10 @@
 
 {title:Table of Contents}
 
-{space 4}{help fm_theme##desc: 1. Description}
-{space 4}{help fm_theme##opts: 2. Options}
-{space 4}{help fm_theme##examp: 3. Examples}
-{space 4}{help fm_theme##consid: 4. Key Considerations}
+{space 4}{help fm_scheme##desc: 1. Description}
+{space 4}{help fm_scheme##opts: 2. Options}
+{space 4}{help fm_scheme##examp: 3. Examples}
+{space 4}{help fm_scheme##consid: 4. Key Considerations}
 
 
 {marker desc}{...}
@@ -48,7 +48,7 @@ Fors Marsh scheme will be rendered with the implementation of
 {help scheme s2mono}.
 
 {pstd}
-The {cmd:fm_theme} command has methods most line-, bar-, and dot-based 
+The {cmd:fm_scheme} command has methods most line-, bar-, and dot-based 
 graphics.
 
 {dlgtab:Line graphs}
@@ -136,17 +136,17 @@ Example 1: Margins Plot-based Line Graph{p_end}
 {pstd}
 {stata mean wage if inrange(occupation, 1, 5), over(age occupation)}{p_end}
 {pstd}
-{stata `"fm_theme: marginsplot, noci xdim(age) xlabel(#4) plotdim(occupation) recast(line) ytitle("Wage in 1988")"'}{p_end}
+{stata `"fm_scheme: marginsplot, noci xdim(age) xlabel(#4) plotdim(occupation) recast(line) ytitle("Wage in 1988")"'}{p_end}
 
 {pstd}
 Example 2: Margins Plot-based Dot Plot{p_end}
 {pstd}
-{stata `"fm_theme: marginsplot, noci xdim(age) xlabel(#4) plotdim(occupation) recast(scatter) ytitle("Wage in 1988")"'}{p_end}
+{stata `"fm_scheme: marginsplot, noci xdim(age) xlabel(#4) plotdim(occupation) recast(scatter) ytitle("Wage in 1988")"'}{p_end}
 
 {pstd}
 Example 3: Bar Chart{p_end}
 {pstd}
-{stata `"fm_theme: graph bar (mean) wage if inrange(occupation, 1, 5), over(occupation) asyvars ytitle("Wage in 1988")"'}
+{stata `"fm_scheme: graph bar (mean) wage if inrange(occupation, 1, 5), over(occupation) asyvars ytitle("Wage in 1988")"'}
 
 {marker consid}{...}
 {title:4. Key Considerations}

@@ -3,11 +3,10 @@ A Fors Marsh Scheme
 
 # `fm_scheme` <img src="logo-cube2.png" align="right" height="110"/>
 
-The package `fm_scheme` is a package that implements the `fm_theme`
-command that works with many line, dot, and bar graphs in Stata.
+The package `fm_scheme` is a command that works with many line, dot, and
+bar graphs in Stata.
 
 # Installation
-
 
 `fm_scheme` is easiest to install using
 [`github install`](https://github.com/haghish/github) as
@@ -31,7 +30,7 @@ request for support for a new type of graph or other update!
 
 ## Note
 
-This package’s icon is the ‘classic’ Fors Marsh (Group) logo used here
-as a nostalgic throwback that uses a key component of Fors Marsh’s
-thematic history. It was intentionally enlarged to pixelate it–which is
+This packageâ€™s icon is the â€˜classicâ€™ Fors Marsh (Group) logo used here
+as a nostalgic throwback that uses a key component of Fors Marshâ€™s
+thematic history. It was intentionally enlarged to pixelate itâ€“which is
 suggestive of its venerablity.

@@ -1,4 +1,4 @@
-*! fm_scheme 0.0.0 Joseph N. Luchman 8/23/2024
+*! fm_scheme 0.0.1 Joseph N. Luchman 9/9/2024
 
 version 18
 
@@ -6,14 +6,12 @@ program define fm_scheme, sclass
 
 	local cmdline : copy local 0
 	mata: _parse_colon("hascolon", "rhscmd")	
-	macro dir
 	if !`hascolon' {
 		* error!
 	}
 	if !strlen("`rhscmd'") {
 		* error!
 	}
-	di `"`0'"'
 	if "`1'" == ":" parse_fm, cmd(`rhscmd')
 	else parse_fm `0' cmd(`rhscmd')
 	
@@ -52,4 +50,7 @@ end
 
 /*
  fm_scheme version 0.0.0 - August 23, 2024
+ // version 0.0.1 - September 9, 2024
+  - updating documentation to 'fm_scheme'
+  - removing needless display when running 'fm_scheme'
  ---
