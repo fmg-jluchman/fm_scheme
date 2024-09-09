@@ -1,6 +1,0 @@
-v 3
-d fm_scheme. fors marsh scheme functions.
-d J. N. Luchman, Fors Marsh
-f fm_scheme.ado
-f scheme-fm.scheme
-f fm_scheme.sthlp
