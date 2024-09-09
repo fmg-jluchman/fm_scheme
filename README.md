@@ -8,6 +8,7 @@ command that works with many line, dot, and bar graphs in Stata.
 
 # Installation
 
+
 `fm_scheme` is easiest to install using
 [`github install`](https://github.com/haghish/github) as
 
@@ -30,7 +31,7 @@ request for support for a new type of graph or other update!
 
 ## Note
 
-This packageâ€™s icon is the â€˜classicâ€™ Fors Marsh (Group) logo used here
-as a nostalgic throwback that uses a key component of Fors Marshâ€™s
-thematic history. It was intentionally enlarged to pixelate itâ€“which is
+This package’s icon is the ‘classic’ Fors Marsh (Group) logo used here
+as a nostalgic throwback that uses a key component of Fors Marsh’s
+thematic history. It was intentionally enlarged to pixelate it–which is
 suggestive of its venerablity.

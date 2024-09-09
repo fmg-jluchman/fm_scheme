@@ -1,6 +1,6 @@
 v 3
-d fm_theme. fors marsh theme functions.
+d fm_scheme. fors marsh theme functions.
 d J. N. Luchman, Fors Marsh
-f fm_theme.ado
+f fm_scheme.ado
 f scheme-fm.scheme
-f fm_theme.sthlp
+f fm_scheme.sthlp
