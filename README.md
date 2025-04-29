@@ -6,6 +6,9 @@ A Fors Marsh Scheme
 The package `fm_scheme` is a command that works with many line, dot, and
 bar graphs in Stata.
 
+This package also includes `fmlite_scheme` which is a less formal, but
+more flexible, implementation of Fors Marsh branding for Stata graphics.
+
 # Installation
 
 `fm_scheme` is easiest to install using
@@ -33,4 +36,4 @@ request for support for a new type of graph or other update!
 This package’s icon is the ‘classic’ Fors Marsh (Group) logo used here
 as a nostalgic throwback that uses a key component of Fors Marsh’s
 thematic history. It was intentionally enlarged to pixelate it–which is
-suggestive of its venerablity.
+suggestive of its venerability.

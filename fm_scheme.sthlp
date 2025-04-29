@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 0.0.1 September 9, 2024 J. N. Luchman}{...}
+{* *! version 0.0.2 April 25, 2025 J. N. Luchman}{...}
 {cmd:help fm_scheme}
 
 {title:Title}
@@ -200,7 +200,7 @@ document in which the graphic is to be included and is probably a lot easier
 to edit in the document than as embedded in the graph.
 
 {pstd}
-Axis titles and ledgend entries do not apply to this recommendation and 
+Axis titles and legend entries do not apply to this recommendation and 
 clear, concise labels for distinguishers and axes can be useful for readers.
 
 

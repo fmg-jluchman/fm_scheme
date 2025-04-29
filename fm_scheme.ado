@@ -1,4 +1,4 @@
-*! fm_scheme 0.0.1 Joseph N. Luchman 9/9/2024
+*! fm_scheme 0.0.2 Joseph N. Luchman 04/25/2025
 
 version 18
 
@@ -53,4 +53,6 @@ end
  // version 0.0.1 - September 9, 2024
   - updating documentation to 'fm_scheme'
   - removing needless display when running 'fm_scheme'
+ // version 0.0.2 - April 25, 2025
+  - fixed typos in documentation
  ---

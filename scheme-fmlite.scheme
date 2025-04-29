@@ -1,0 +1,23 @@
+*                                    fmlite.scheme
+
+* Fors Marsh inspired scheme extending on Stata's -stmono1- scheme
+
+*!  version 0.0.0 04/25/2025
+
+sequence 1220
+
+#include stmono1
+label "fmlite"
+
+// grids
+color major_grid none
+
+// plot and other regions
+color plotregion white
+intensity plotregion inten100
+color background white
+intensity background inten100
+color foreground white
+intensity foreground inten100
+
+
